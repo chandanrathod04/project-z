@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <title>Welcome To iCoder-Heaven for Programmers</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Coder.io</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Content
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://thescalers.com/the-future-of-it-technology-in-india/">Technology</a></li>
+              <li><a class="dropdown-item" href="https://www.businessinsider.in/tech/how-to-access-the-dark-web-where-all-sorts-of-illegal-stuff-goes-down-online/slidelist/47237110.cms">Web Stuff</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=gQojMIhELvM&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc">Web Course</a></li>
+              <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=osX1BW71nyU">Tech Videos</a></li>
+              <li><a class="dropdown-item" href="https://www.youtube.com/channel/UClZuKq2m0Qu-HkopkSBLpEw">Subscribe</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact Us.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search Here">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="mr-2">
+      <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
+        data-bs-target="#loginModal">Login</button>
+    </div>
+    <div class="mx-3">
+      <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
+        data-bs-target="#signupModal">SignUp</button>
+    </div>
+  </nav>
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SignUp Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Get an iCoder account</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="coder 2.jpg" class="d-block w-100" alt="coder">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to iCoder</h5>
+          <p>Technology news,Development & Trends</p>
+          <button type="button" class="btn btn-primary">Technology</button>
+          <button type="button" class="btn btn-success">Web Devlopment</button>
+          <button type="button" class="btn btn-danger">Tech Fun</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="coding 5.jpg" class="d-block w-100" alt="coding">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Heaven for coders</h5>
+          <p>Technology news,Development & Trends</p>
+          <button type="button" class="btn btn-primary">Technology</button>
+          <button type="button" class="btn btn-success">Web Devlopment</button>
+          <button type="button" class="btn btn-danger">Tech Fun</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="programming 2.jpg" class="d-block w-100" alt="programming">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Programming and Technology</h5>
+          <p>Technology news,Development & Trends</p>
+          <button type="button" class="btn btn-primary">Technology</button>
+          <button type="button" class="btn btn-success">Web Devlopment</button>
+          <button type="button" class="btn btn-danger">Tech Fun</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Global Coding Conferences.</h3>
+            <div class="mb-1 text-muted">Nov 10</div>
+            <p class="card-text mb-auto">The Business of IT Blog</p>
+             <p>Top 18 Programming & Software Dev Conferences of 2020.</p>
+            <a href="https://www.bmc.com/blogs/software-development-programming-conferences/" class="stretched-link">Read More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="global.jpg" alt="global coding conferences">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text>
+            </svg>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Programming Is Evolving.</h3>
+            <div class="mb-1 text-muted">Nov 15</div>
+            <p class="mb-auto">10 Years Of Evolution of Programming Languages</p>
+            <p>Programming languages continue to evolve in both industry and research, as systems and applications change.</p>
+            <a href="https://www.simplilearn.com/evolution-of-programming-languages-article#:~:text=Programming%20languages%20continue%20to%20evolve,client's%20preference%20or%20their%20own." class="stretched-link">Read More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="program.jpg" alt="program">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text>
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">World</strong>
+            <h3 class="mb-0">Java Encoders</h3>
+            <div class="mb-1 text-muted">Dec 3</div>
+            <p class="card-text mb-auto">18.7 Using Encoders and Decoders</p>
+            <p>The Java API for WebSocket provides support for converting between WebSocket messages and custom Java types using encoders and decoders.</p>
+            <a href="https://docs.oracle.com/javaee/7/tutorial/websocket007.htm" class="stretched-link">Read More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="java logo.jpg" alt="java encoders">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text>
+            </svg>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">Design</strong>
+            <h3 class="mb-0">Python Programming</h3>
+            <div class="mb-1 text-muted">Dec 20</div>
+            <p class="mb-auto">Python News</p>
+            <p>Python 3.9.0rc2 is now available for testing from Python Insider.</p>
+            <a href="https://hub.packtpub.com/python-3-9-0rc2-is-now-available-for-testing-from-python-insider/" class="stretched-link">Read More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="python.jpg" alt="python">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em"></text>
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2018-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
